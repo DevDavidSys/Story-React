@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+
+.card-founder{
+    text-align: center;
+    box-shadow: 2px 3px 3px 3px  rgba(0, 0, 0, 0.178);
+    margin: 15px 0;
+    border-radius: 20px;
+    transition: 1s;
+    padding: 20px;
+}
+.card-founder:hover{
+    box-shadow: none;
+    transform:translateY(2px);
+    transition: 1s;
+}
+
+.founder-img{
+    width: 128px;
+    border-radius: 64px;
+
+}
+
+.card-founder h6,.card-founder p{
+    font-size: 16px;
+    margin: 10px 0;
+    font-family: 'EB Garamond', serif;
+    
+}
