@@ -3,6 +3,7 @@ import "./style.css"
 import { Link } from "react-router-dom";
 import EstructurePage from "../EstructurePage";
 import Founders from "../Founders";
+import Wave from "../Wave";
 export default function Main(){
     return(
         <EstructurePage>
@@ -12,7 +13,7 @@ export default function Main(){
                 
             </div>
 
-
+            <Wave/>
         </EstructurePage>
 
     );
