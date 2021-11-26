@@ -2,7 +2,7 @@ import React from 'react';
 import "./style.css"
 
 
-export default function Card_fouder(props){
+export default function Card(props){
     return(
         <div className="card-founder">
             <img className="founder-img" src={props.src}/>

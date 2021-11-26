@@ -1,13 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 .content-home{
-    text-align: center;
-    padding: 20px;
+    background-image: url(../../assets/background.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+
 
 }
-.text{
-    font-size: 16px;
-    text-align: justify;
-    font-family: 'Orbitron', sans-serif;
+.logo{
+    position: relative;
+    left: 100px;
+    border: 1px solid white;
+    width: 200px;
+    padding: 10px;
+    color: white;
 
+
+}
+.shadow{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border: 1px 0 solid black;
+
+}
+.shadow:hover{
+    background-color: rgba(0,0,0,0.2);
+    transition: 2000ms;
+}
+.circles{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+   
 
 }

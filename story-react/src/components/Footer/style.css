@@ -3,7 +3,7 @@
 footer{
     box-sizing: border-box;
     width: 100%;
-    background-color: #1b48ab;
+    background-color: #000000;
     color: white;   
     font-size: 12px;
     text-align: center;
@@ -13,5 +13,5 @@ footer{
     font-weight: 600;
     /*position: absolute;
     bottom: 0;
-*/
+    */
 }

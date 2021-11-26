@@ -1,0 +1,16 @@
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    
+    box-shadow: 1px 1px  rgb(245, 245, 245);
+    display: flex;
+    padding:20px;
+    background-color: rgb(223, 223, 223);
+}
+
+.circle:hover{
+    box-shadow: none;
+    transition: 1s;
+    cursor: pointer;
+}

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+.building-container{
+    height: 100vh;
+}
+.building-container h1{
+    font-size: 24px;
+    font-family: 'Raleway Dots', cursive;
+    text-align: center;
+    margin: 10px;
+
+
+
+}
