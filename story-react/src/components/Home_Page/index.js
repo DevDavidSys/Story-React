@@ -6,9 +6,8 @@ import twitter_logo from "../../icons/tt.png"
 import whatsapp from "../../icons/whatsapp.png"
 import face from "../../icons/face.png"
 import instagram from "../../icons/instagram.png"
-
-
 import Circle from "../Circle"
+
 export default function Home_Page(){
     return(
         <EstructurePage>

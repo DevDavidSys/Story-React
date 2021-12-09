@@ -6,7 +6,8 @@ export default function EstructurePage(props){
     return(
         <div className="estructure">
             <Header/>
-            {props.children}
+            
+                {props.children}
             <Footer/>
         </div>
 
